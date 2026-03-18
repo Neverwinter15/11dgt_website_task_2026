@@ -1,0 +1,101 @@
+/*this is a css comment
+ * CSS styles below*/
+
+body {
+    margin:15;
+    background-image: url("../images/wp15272848.jpg")   ; 
+    padding: 5%;
+    font-family: 'Times New Roman';
+}
+
+/* <weight>: Use a value from 100 to 1000*/
+/* <uniquifier>: Use a unique and descriptive class name*/
+.roboto-regular {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #a4d2eb;
+    text-align:centre;
+ 
+}
+.topnav a:hover {
+    background-color: gold
+}
+.topnav a {
+    color: whitesmoke;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+h1{
+    color: whitesmoke;
+    margin-left: 200px ;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+img { 
+
+    
+}
+.main-img img{
+   width: 1000px; 
+   height: 550px;
+   margin-left: 10px;
+}
+.sub-img img{
+    width: 80%; 
+    margin-left: 10;
+}
+
+main{
+    background-color: #43bfe8;
+    margin:10;
+    padding: 10%; 
+   
+}
+
+li {
+    color: #445c71
+}
+
+.highlighted {
+    background-color: #77b41b;
+    width: auto;
+    
+}
+
+H3{
+    color: whitesmoke
+}
+
+/*https://coolors.co/43bfe8-77b41c-445c71-f363a9-c4af1f*/
+footer {
+    background-color: #a4d2eb;
+    color: white;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 25px;
+    background-color: skyblue;
+    padding: 20px;
+    
+}
