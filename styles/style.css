@@ -3,6 +3,7 @@
 
 body {
     margin:15;
+    /*the line below makes an image the backround*/
     background-image: url("../images/wp15272848.jpg")   ; 
     padding: 5%;
     font-family: 'Times New Roman';
@@ -10,7 +11,8 @@ body {
 
 /* <weight>: Use a value from 100 to 1000*/
 /* <uniquifier>: Use a unique and descriptive class name*/
-.roboto-regular {
+
+.roboto-regular { /*makes the font of the whole website sans-serif*/
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -22,8 +24,13 @@ body {
     overflow: hidden;
     background-color: #a4d2eb;
     text-align:centre;
- 
+       
 }
+
+
+
+
+
 .topnav a:hover {
     background-color: gold
 }
@@ -36,35 +43,36 @@ body {
     padding: 14px 16px;
 }
 
-p {
+p { /*changes color of font and size of font ofor paragraphs*/
     color: whitesmoke;
     font-size: 20px;
 }
 
-h1{
+h1{/*changes color of font*/
     color: whitesmoke;
     margin-left: 200px ;
 }
 
-h2{
+h2{/*changes color of font*/
     color: whitesmoke;
+
 }
 
-img { 
 
-    
-}
-.main-img img{
+.main-img img {
+    /*changes the size, and location of the main image*/
    width: 1000px; 
    height: 550px;
    margin-left: 10px;
 }
 .sub-img img{
+    /*changes the width and location of sub images*/
     width: 80%; 
     margin-left: 10;
 }
 
-main{
+main{ 
+    /*changes the color of the main section backround*/
     background-color: #43bfe8;
     margin:10;
     padding: 10%; 
@@ -72,30 +80,51 @@ main{
 }
 
 li {
+    /*changes color of the text*/
     color: #445c71
 }
 
 .highlighted {
+    /*this would make highlighted text in the page green, but nothing is highlighted.*/
     background-color: #77b41b;
     width: auto;
     
 }
 
-H3{
+H3{/*changes color of font*/
     color: whitesmoke
 }
 
 /*https://coolors.co/43bfe8-77b41c-445c71-f363a9-c4af1f*/
-footer {
+footer {/*changes color of footer and the color of the text*/
     background-color: #a4d2eb;
     color: white;
 }
+H5{
+  color: whitesmoke;
+  margin-left: 260px;
+   
+}
+
 
 .wrapper{
     display: grid;
+    /*the line below makes only two columns*/
     grid-template-columns: auto auto;
-    border-radius: 25px;
+    /*changes backround color for the wrapper*/
     background-color: skyblue;
     padding: 20px;
-    
+    /*this line makes the corners curved*/
+    border-radius: 25px;
+}
+.psr img{
+   margin-left: 250px;
+   width: 400px; 
+   height: 400px;
+   
+} 
+
+.combos img{
+    height: 300px;
+    width: 300px;
 }
